@@ -1,0 +1,264 @@
+mggg-la
+
+This folder contains the Jupyter Notebook of the validation script for MGGG's LA shapefile and acs spreadsheet.
+
+Folder files:
+mggg-la-shapefile.ipynb
+mggg-la-acscsv.ipynb
+README
+
+AWS
+
+All data is under file path 'data-integrity/mggg-la'
+
+
+FINAL DATA
+Final MGGG LA precint shapefile with election results is under 'data-integrity/mggg-la-final/LA_1519.shp'.
+Final MGGG LA precinct csv with ACS data is under 'data-integrity/mggg-la-final/LA-1519-cvap.csv'.
+
+Final data files downloaded from MGGG's GitHub: https://github.com/mggg-states/LA-shapefiles
+  Downloaded: October 30, 2020
+  Data last updated by MGGG: October 13, 2020
+  Documentation: README.md is also accessible via the link to GitHub above.
+
+RAW DATA:
+
+All raw data files are found in 'data-integrity/mggg-la/raw-data'.
+
+2018 Louisiana Precincts
+  in AWS as: 'data-integrity/vest-la-2018/raw-data/2018_precincts/2018 LA Precincts for the Web.shp'.
+  Downloaded from the Louisiana House of Representatives: https://house.louisiana.gov/h_redistricting2011/Shapefiles/2018%20LA%20Precincts%20for%20the%20Web.zip
+  File name: 2018 LA Precincts for the Web.zip
+  Downloaded: October 30, 2020
+  
+2010 US Census Blocks
+  in AWS as: 'data-integrity/mggg-la/raw-data/tl_2010_22_tabblock10/tl_2010_22_tabblock10/
+  Downloaded from the US Census TIGER/Line Shapefile: https://www.census.gov/cgi-bin/geo/shapefiles/index.php?year=2019&layergroup=Blocks+%282010%29
+  File name: tl_2019_22_tabblock10.zip
+  Downloaded: October 30, 2020
+
+
+Election data
+All election data is stored in the AWS folder 'data-integrity/mggg-la/raw-data/election_results_la/'.
+34 files are stored here. 
+
+Attorney General 2015 General Election by Precinct, Louisiana (Sat Oct 24 2015)
+  in AWS as: 'data-integrity/mggg-la/raw-data/election_results_la/AGGeneralElection2015_LA.csv'.
+  Downloaded from the Louisiana Secretary of State's Office: https://voterportal.sos.la.gov/graphical
+  File name: ByPrecinct_50523.csv
+  Downloaded: October 30, 2020
+  
+Attorney General 2019 Jungle Primary by Precinct, Louisiana (*)
+  in AWS as: 'data-integrity/mggg-la/raw-data/election_results_la/AGPrimary2019_LA.csv'.
+  Downloaded from the Louisiana Secretary of State's Office: https://voterportal.sos.la.gov/graphical
+  File name: *
+  Downloaded: October 30, 2020
+
+Attorney General 2019 Primary by Precinct, Louisiana (*)
+  in AWS as: 'data-integrity/mggg-la/raw-data/election_results_la/AGPrimary2019_LA.csv'.
+  Downloaded from the Louisiana Secretary of State's Office: https://voterportal.sos.la.gov/graphical
+  File name: *
+  Downloaded: October 30, 2020
+
+
+Commisioner of Agriculture and Forestry 2019 Jungle Primary by Precinct, Louisiana (*)
+  in AWS as: 'data-integrity/mggg-la/raw-data/election_results_la/CAFPrimary2019_LA.csv'.
+  Downloaded from the Louisiana Secretary of State's Office: https://voterportal.sos.la.gov/graphical
+  File name: *
+  Downloaded: October 30, 2020
+
+Congressional District 1 2016 Jungle Primary by Precinct, Louisiana (*)
+  in AWS as: 'data-integrity/mggg-la/raw-data/election_results_la/CD1Primary2016_LA.csv'.
+  Downloaded from the Louisiana Secretary of State's Office: https://voterportal.sos.la.gov/graphical
+  File name: *
+  Downloaded: October 30, 2020
+
+Congressional District 1 2018 Jungle Primary by Precinct, Louisiana (*)
+  in AWS as: 'data-integrity/mggg-la/raw-data/election_results_la/CD1Primary2018_LA.csv'.
+  Downloaded from the Louisiana Secretary of State's Office: https://voterportal.sos.la.gov/graphical
+  File name: *
+  Downloaded: October 30, 2020
+  
+Congressional District 2 2016 Jungle Primary by Precinct, Louisiana (*)
+  in AWS as: 'data-integrity/mggg-la/raw-data/election_results_la/CD2Primary2016_LA.csv'.
+  Downloaded from the Louisiana Secretary of State's Office: https://voterportal.sos.la.gov/graphical
+  File name: *
+  Downloaded: October 30, 2020
+  
+ Congressional District 2 2018 Jungle Primary by Precinct, Louisiana (*)
+  in AWS as: 'data-integrity/mggg-la/raw-data/election_results_la/CD2Primary2018_LA.csv'.
+  Downloaded from the Louisiana Secretary of State's Office: https://voterportal.sos.la.gov/graphical
+  File name: *
+  Downloaded: October 30, 2020
+  
+ Congressional District 3 2016 Jungle Primary by Precinct, Louisiana (*)
+  in AWS as: 'data-integrity/mggg-la/raw-data/election_results_la/CD3Primary2016_LA.csv'.
+  Downloaded from the Louisiana Secretary of State's Office: https://voterportal.sos.la.gov/graphical
+  File name: *
+  Downloaded: October 30, 2020
+  
+ Congressional District 3 2018 Jungle Primary by Precinct, Louisiana (*)
+  in AWS as: 'data-integrity/mggg-la/raw-data/election_results_la/CD3Primary2018_LA.csv'.
+  Downloaded from the Louisiana Secretary of State's Office: https://voterportal.sos.la.gov/graphical
+  File name: *
+  Downloaded: October 30, 2020
+  
+Congressional District 4 2016 Jungle Primary by Precinct, Louisiana (*)
+  in AWS as: 'data-integrity/mggg-la/raw-data/election_results_la/CD4Primary2016_LA.csv'.
+  Downloaded from the Louisiana Secretary of State's Office: https://voterportal.sos.la.gov/graphical
+  File name: *
+  Downloaded: October 30, 2020
+  
+ Congressional District 4 2018 Jungle Primary by Precinct, Louisiana (*)
+  in AWS as: 'data-integrity/mggg-la/raw-data/election_results_la/CD4Primary2018_LA.csv'.
+  Downloaded from the Louisiana Secretary of State's Office: https://voterportal.sos.la.gov/graphical
+  File name: *
+  Downloaded: October 30, 2020
+  
+ Congressional District 5 2016 Jungle Primary by Precinct, Louisiana (*)
+  in AWS as: 'data-integrity/mggg-la/raw-data/election_results_la/CD5Primary2016_LA.csv'.
+  Downloaded from the Louisiana Secretary of State's Office: https://voterportal.sos.la.gov/graphical
+  File name: *
+  Downloaded: October 30, 2020
+  
+ Congressional District 5 2018 Jungle Primary by Precinct, Louisiana (*)
+  in AWS as: 'data-integrity/mggg-la/raw-data/election_results_la/CD5Primary2018_LA.csv'.
+  Downloaded from the Louisiana Secretary of State's Office: https://voterportal.sos.la.gov/graphical
+  File name: *
+  Downloaded: October 30, 2020
+  
+ Congressional District 6 2016 Jungle Primary by Precinct, Louisiana (*)
+  in AWS as: 'data-integrity/mggg-la/raw-data/election_results_la/CD6Primary2016_LA.csv'.
+  Downloaded from the Louisiana Secretary of State's Office: https://voterportal.sos.la.gov/graphical
+  File name: *
+  Downloaded: October 30, 2020
+  
+ Congressional District 6 2018 Jungle Primary by Precinct, Louisiana (*)
+  in AWS as: 'data-integrity/mggg-la/raw-data/election_results_la/CD6Primary2018_LA.csv'.
+  Downloaded from the Louisiana Secretary of State's Office: https://voterportal.sos.la.gov/graphical
+  File name: *
+  Downloaded: October 30, 2020
+  
+Commissioner of Insurance 2019 Jungle Primary by Precinct, Louisiana (*)
+  in AWS as: 'data-integrity/mggg-la/raw-data/election_results_la/CIPrimary2019_LA.csv'.
+  Downloaded from the Louisiana Secretary of State's Office: https://voterportal.sos.la.gov/graphical
+  File name: *
+  Downloaded: October 30, 2020
+  
+President 2016 General Election by Precinct, Louisiana (*)
+  in AWS as: 'data-integrity/mggg-la/raw-data/election_results_la/GeneralElectionPres2016_LA.csv'.
+  Downloaded from the Louisiana Secretary of State's Office: https://voterportal.sos.la.gov/graphical
+  File name: *
+  Downloaded: October 30, 2020
+
+Governor 2015 General Election by Precinct, Louisiana (*)
+  in AWS as: 'data-integrity/mggg-la/raw-data/election_results_la/GovGeneralElection2015_LA.csv'.
+  Downloaded from the Louisiana Secretary of State's Office: https://voterportal.sos.la.gov/graphical
+  File name: *
+  Downloaded: October 30, 2020
+  
+Governor 2019 General Election by Precinct, Louisiana (*)
+  in AWS as: 'data-integrity/mggg-la/raw-data/election_results_la/GovGeneralElection2019_LA.csv'.
+  Downloaded from the Louisiana Secretary of State's Office: https://voterportal.sos.la.gov/graphical
+  File name: *
+  Downloaded: October 30, 2020
+  
+ Governor 2015 Primary by Precinct, Louisiana (*)
+  in AWS as: 'data-integrity/mggg-la/raw-data/election_results_la/GovPrimary2015_LA.csv'.
+  Downloaded from the Louisiana Secretary of State's Office: https://voterportal.sos.la.gov/graphical
+  File name: *
+  Downloaded: October 30, 2020
+  
+ Governor 2019 Primary by Precinct, Louisiana (*)
+  in AWS as: 'data-integrity/mggg-la/raw-data/election_results_la/GovPrimary2019_LA.csv'.
+  Downloaded from the Louisiana Secretary of State's Office: https://voterportal.sos.la.gov/graphical
+  File name: *
+  Downloaded: October 30, 2020
+  
+ Lieutenant Governor 2019 by Precinct, Louisiana (*)
+  in AWS as: 'data-integrity/mggg-la/raw-data/election_results_la/LG2019_LA.csv'.
+  Downloaded from the Louisiana Secretary of State's Office: https://voterportal.sos.la.gov/graphical
+  File name: *
+  Downloaded: October 30, 2020 
+  
+ President 2016 Democratic Primary by Precinct, Louisiana (*)
+  in AWS as: 'data-integrity/mggg-la/raw-data/election_results_la/PresDemPrimary2016_LA.csv'.
+  Downloaded from the Louisiana Secretary of State's Office: https://voterportal.sos.la.gov/graphical
+  File name: *
+  Downloaded: October 30, 2020
+  
+ President 2016 Republican Primary by Precinct, Louisiana (*)
+  in AWS as: 'data-integrity/mggg-la/raw-data/election_results_la/PresRepPrimary2016_LA.csv'.
+  Downloaded from the Louisiana Secretary of State's Office: https://voterportal.sos.la.gov/graphical
+  File name: *
+  Downloaded: October 30, 2020
+  
+ Senate 2016 Jungle Primary by Precinct, Louisiana (*)
+  in AWS as: 'data-integrity/mggg-la/raw-data/election_results_la/SenatePrimary2016_LA.csv'.
+  Downloaded from the Louisiana Secretary of State's Office: https://voterportal.sos.la.gov/graphical
+  File name: *
+  Downloaded: October 30, 2020
+  
+ Senate 2016 Run-off by Precinct, Louisiana (*)
+  in AWS as: 'data-integrity/mggg-la/raw-data/election_results_la/SenateRunoff2016_LA.csv'.
+  Downloaded from the Louisiana Secretary of State's Office: https://voterportal.sos.la.gov/graphical
+  File name: *
+  Downloaded: October 30, 2020
+  
+ Secretary of State 2015 by Precinct, Louisiana (*)
+  in AWS as: 'data-integrity/mggg-la/raw-data/election_results_la/SoS2015_LA.csv'.
+  Downloaded from the Louisiana Secretary of State's Office: https://voterportal.sos.la.gov/graphical
+  File name: *
+  Downloaded: October 30, 2020
+
+Secretary of State 2018 General Election by Precinct, Louisiana (Sat Dec 8 2018)
+  in AWS as: 'data-integrity/mggg-la/raw-data/election_results_la/SOSGeneral2018_LA.csv'.
+  Downloaded from the Louisiana Secretary of State's Office: https://voterportal.sos.la.gov/graphical
+  File name: ByPrecinct_56437.csv
+  Downloaded: October 30, 2020
+  
+Secretary of State 2019 General Election by Precinct, Louisiana (*)
+  in AWS as: 'data-integrity/mggg-la/raw-data/election_results_la/SOSGeneralElection2019_LA.csv'.
+  Downloaded from the Louisiana Secretary of State's Office: https://voterportal.sos.la.gov/graphical
+  File name: *.csv
+  Downloaded: October 30, 2020
+ 
+Secretary of State 2018 Jungle Primary by Precinct, Louisiana (Tues Nov 6 2018)
+  in AWS as: 'data-integrity/mggg-la/raw-data/election_results_la/SOSPrimary2018_LA.csv'.
+  Downloaded from the Louisiana Secretary of State's Office: https://voterportal.sos.la.gov/graphical
+  File name: ByPrecinct_56213.csv
+  Downloaded: October 30, 2020
+
+Treausrer 2019 by Precinct, Louisiana (*)
+  in AWS as: 'data-integrity/mggg-la/raw-data/election_results_la/Treasurer2019_LA.csv'.
+  Downloaded from the Louisiana Secretary of State's Office: https://voterportal.sos.la.gov/graphical
+  File name: *.csv
+  Downloaded: October 30, 2020
+ 
+Treausrer 2017 General Election by Precinct, Louisiana (*)
+  in AWS as: 'data-integrity/mggg-la/raw-data/election_results_la/TreasurerGeneralElection2017_LA.csv'.
+  Downloaded from the Louisiana Secretary of State's Office: https://voterportal.sos.la.gov/graphical
+  File name: *.csv
+  Downloaded: October 30, 2020
+  
+Treausrer 2015 Primary by Precinct, Louisiana (*)
+  in AWS as: 'data-integrity/mggg-la/raw-data/election_results_la/TreasurerPrimary2015_LA.csv'.
+  Downloaded from the Louisiana Secretary of State's Office: https://voterportal.sos.la.gov/graphical
+  File name: *.csv
+  Downloaded: October 30, 2020
+  
+Treausrer 2017 Primary by Precinct, Louisiana (*)
+  in AWS as: 'data-integrity/mggg-la/raw-data/election_results_la/TreasurerPrimary2017_LA.csv'.
+  Downloaded from the Louisiana Secretary of State's Office: https://voterportal.sos.la.gov/graphical
+  File name: *.csv
+  Downloaded: October 30, 2020
+ 
+
+***TODO***
+
+- Add dates and file names to all election results.
+- Add raw data to S3 and this README for mggg-la's csv of CVAP data from ACS.
+
+
+
+
