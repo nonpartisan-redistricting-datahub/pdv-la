@@ -1,10 +1,11 @@
 vest-la-2018
 
-This folder contains the Jupyter Notebook of the validation script for VEST's LA 2018 shapefile.
+This folder contains the Jupyter Notebook(s) of the validation script for VEST's LA 2018 shapefile.
 
 Folder files:
 vest-la-2018.ipynb
 README
+vest-la-2018-final.ipynb
 
 AWS
 
