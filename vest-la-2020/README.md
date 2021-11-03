@@ -13,7 +13,7 @@ Please reach out to info@redistrictingdatahub.org to reach our support team if y
 - VEST LA 20 data file
   - Accessed 10/21/21, Source: VEST
   - https://dataverse.harvard.edu/file.xhtml?fileId=4773526&version=21.0
-- VEST ID 20 documentation file
+- VEST LA 20 documentation file
   - Accessed: 10/21/21, Source: VEST
   - https://dataverse.harvard.edu/file.xhtml?fileId=5206372&version=21.0
 - LA Precinct-Level Election Results
