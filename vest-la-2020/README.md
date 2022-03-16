@@ -11,10 +11,10 @@ Please reach out to info@redistrictingdatahub.org to reach our support team if y
 
 ### Accessible files: 
 - VEST LA 20 data file
-  - Accessed 10/21/21, Source: VEST
+  - Accessed 03/16/22, Source: VEST
   - https://dataverse.harvard.edu/file.xhtml?fileId=4773526&version=21.0
 - VEST LA 20 documentation file
-  - Accessed: 10/21/21, Source: VEST
+  - Accessed: 03/16/22, Source: VEST
   - https://dataverse.harvard.edu/file.xhtml?fileId=5206372&version=21.0
 - LA Precinct-Level Election Results
   - Accessed: 10/21/21, Source: LA Secretary of State
